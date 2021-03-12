@@ -2,7 +2,11 @@ body{
     font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
     font-weight: bold;
     color: #272937;
-    background-color: #dad9ce;
+    
+     background-color: white;
+    background-image: linear-gradient(transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06)), linear-gradient(90deg, transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06));
+    background-size: 64px 64px;
+    background-repeat: repeat;
     
 }
 
@@ -22,7 +26,7 @@ li {
 }
 
 li:hover{
-    background-color: white;
+    background-color: gray;
     border-radius: 5px 5px;
 }
 
@@ -55,4 +59,4 @@ nav li img{
 main{
     font-size:1.2em;
     text-align: center;
-    margin: 0.5%;
+    margin: 0 auto;

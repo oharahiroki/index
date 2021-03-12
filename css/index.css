@@ -4,9 +4,9 @@ body {
     font-weight: bold;
     line-height: 1.7;
     color: #272937;
-    background-color: #dad9ce;
+    background-color: white;
     background-image: linear-gradient(transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06)), linear-gradient(90deg, transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06));
-    background-size: 16px 16px;
+    background-size: 64px 64px;
     background-repeat: repeat;
 }
 
