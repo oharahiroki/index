@@ -1,0 +1,83 @@
+body {
+    font-family: 'Noto Sans JP', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    font-weight: bold;
+    color: #272937;
+    background-color: #dad9ce;
+
+}
+
+header {
+    text-align: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: white;
+    border-radius: 5px 5px;
+}
+
+
+li a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: left;
+    color: #272937;
+    font-family: 'HG教科書体';
+    font-size: 4em;
+    border-bottom: 3px solid #272937;
+    display: inline-block;
+    margin: 20px 0 40px 0;
+
+}
+
+h2 {
+    text-align: center;
+    color: #272937;
+    font-family: 'HG教科書体';
+    font-size: 3em;
+}
+
+nav {
+    border-bottom: 3px solid #272937;
+    display: inline;
+}
+
+nav ul {
+    margin-bottom: 40px;
+}
+
+nav li img {
+    width: 100px;
+}
+
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+}
+
+#production {
+    display: flex;
+    justify-content: space-around;
+}
+
+#img img {
+    width: 730px;
+}
+
+small {
+    text-decoration: none;
+    font-size:10px;
