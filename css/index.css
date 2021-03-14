@@ -87,3 +87,43 @@ width: 1000px;
 article{
     width: 500px;
 }
+
+
+@media(max-width:1000px){
+    article{
+        width: 400px;
+    }
+    #main{
+        width: 800px;
+    }
+    
+}
+
+
+@media(max-width:800px){
+    #main{
+        width:auto;
+        
+    }
+
+    #main img{
+        width: 250px;
+    }
+}
+
+@media(max-width:650px){
+    #main{
+        display: block;
+    }
+    article{
+        margin: 0 auto;
+    }
+    
+}
+
+@media(max-width:400px){
+    article{
+        width: 300px;
+    }
+    
+}
